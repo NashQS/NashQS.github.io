@@ -18,13 +18,46 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" style="background-color: #17043a; color: #fff;">
-						<a href="index.html" class="logo" style="border: none; outline: none;">
-							<h1 style="font-size: 36px;">Tinashe
-						</h1>
-							<p style="font-size: 22px;">Quantity Surveyor | Estimator | Data Analyst</p>
-							</a>
-						</header>
+				<header id="header" style="background-color: #17043a; color: #fff; padding: 20px 10px;">
+					<a href="index.html" class="logo" style="text-decoration: none; color: inherit; display: block; text-align: center;">
+						<h1 style="font-size: 36px; margin: 0;">Tinashe</h1>
+						<p style="font-size: 22px; margin: 0;">Quantity Surveyor | Estimator | Data Analyst</p>
+					</a>
+				</header>
+				
+				<style>
+					/* Responsive styling */
+					#header {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						flex-direction: column;
+						padding: 20px;
+					}
+				
+					/* Mobile responsiveness */
+					@media (max-width: 768px) {
+						#header h1 {
+							font-size: 28px; /* Smaller font size for mobile */
+						}
+						#header p {
+							font-size: 16px; /* Reduce size of subtext on mobile */
+						}
+					}
+				
+					/* Larger screens */
+					@media (min-width: 768px) {
+						#header {
+							padding: 30px; /* Increase padding for larger screens */
+						}
+						#header h1 {
+							font-size: 36px; /* Larger font for desktop */
+						}
+						#header p {
+							font-size: 22px;
+						}
+					}
+				</style>
 
 				<!-- Nav -->
 					<nav id="nav" style="background-color: #261280; color: #fff;">
